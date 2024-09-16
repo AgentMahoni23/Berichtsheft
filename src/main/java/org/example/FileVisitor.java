@@ -45,10 +45,6 @@ public class FileVisitor extends SimpleFileVisitor<Path> {
         for (String s : filePaths) {
             newFilePaths.add(inFilePath + s);
         }
-
-        // Kommentierter Code: Der Code unten kann verwendet werden, um die neuen Dateipfade auszugeben
-        // for (String s1 : newFilePaths)
-        //     System.out.println();
     }
 
     /*
